@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/CommunityAssets/HoloToolkit-Preview/QRTracker/Scenes/AttachToQRCode.unity
+  isLoaded: 1
+  isActive: 1
