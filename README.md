@@ -30,29 +30,29 @@ With the inplementation of Virtual Reality (VR) technology in conjunction with G
 
 ### Problem Statement
 
-Excavation sites have to be mapped accuratly to scientically analyze the findings and to be able to reconstruct the actual outlay of the findings in a standardized fashion. Setting up a base grid, depending on task and environment, to start the excavation process is time consuming and requires highly accurate, specialized and expensive equipment. The necessary processes are time consuming and require trainign and expertise in the use of the specialized equipment.
+Excavation sites have to be mapped accuratly to scientically analyze the findings and to be able to reconstruct the actual outlay of the findings in a standardized fashion. Setting up a excavation site base grid, depending on task and environment, to start the excavation process is time consuming and requires highly accurate, specialized and expensive equipment. The necessary processes are time consuming and require trainign and expertise in the use of the specialized equipment.
 
 ![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid_in_Grid.png)
 
-The problem statement specifies the issue the white paper will address. The problem needs to be defined and placed into a context to ensure it’s understood by the reader.
+Depending on the excavation site and technique selected for the task, it is not always possible to adapt the local excavation site grid to the underlying coordinates grid. Therefore, the grid has to be measured and put into a standardized system so that the findings/generated data can be recorded and analyzed.   
+
+(The problem statement specifies the issue the white paper will address. The problem needs to be defined and placed into a context to ensure it’s understood by the reader.)
 
 ### Background
 
-This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
-
-If original research is completed for the white paper, the methods should be communicated.
+(This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
+If original research is completed for the white paper, the methods should be communicated.)
 
 ### Solution
 
-The ‘ta-da’ moment of the white paper.
-
-Based on the preceding information, the solution is now presented. It is developed and argued for using the gathered evidence and the expertise of the author and their company.
+(The ‘ta-da’ moment of the white paper.
+Based on the preceding information, the solution is now presented. It is developed and argued for using the gathered evidence and the expertise of the author and their company.)
 
 ### Conclusion
 
-This section summarizes the white paper’s major findings. Recommendations based on the solution are provided.
+(This section summarizes the white paper’s major findings. Recommendations based on the solution are provided.)
 
 References
 
-All sources used to develop the white paper must be collected and cited in this section. It adds validity to the document. It also gives the reader content for further research. Depending on your industry, follow MLA or APA citation formats.
+(All sources used to develop the white paper must be collected and cited in this section. It adds validity to the document. It also gives the reader content for further research. Depending on your industry, follow MLA or APA citation formats.)
 
