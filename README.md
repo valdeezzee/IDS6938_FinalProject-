@@ -32,7 +32,7 @@ With the inplementation of Virtual Reality (VR) technology in conjunction with G
 
 Excavation sites have to be mapped accuratly to scientically analyze the findings and to be able to reconstruct the actual outlay of the findings in a standardized fashion. Setting up a base grid, depending on task and environment, to start the excavation process is time consuming and requires highly accurate, specialized and expensive equipment. The necessary processes are time consuming and require trainign and expertise in the use of the specialized equipment.
 
-![Grid](https://github.com/MarkusLoennig/project_template/blob/master/IMAGES/PictureTimeline2.jpg)
+![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid_in_Grid.png)
 
 The problem statement specifies the issue the white paper will address. The problem needs to be defined and placed into a context to ensure it’s understood by the reader.
 
