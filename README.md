@@ -36,9 +36,9 @@ Excavation sites have to be mapped accuratly to scientically analyze the finding
 
 Depending on the excavation site and technique selected for the task, it is not always possible to adapt the local excavation site grid to the underlying coordinates grid. Therefore, the grid has to be measured and put into reference with a standardized system so that the findings/generated data can be recorded, analyzed and reconstructed.   
 
-Additionally, excavation sites can be local or non-conformal to a traditional grid due to location or legal constrains. Still, an accurate documentation has to be ensured. Measuring the 
+Additionally, excavation sites can be local or non-conformal to a traditional grid due to location or legal constrains. Still, an accurate documentation has to be ensured. Measuring the coordinates used to be timeconsuming, as either GPS was not available yet or the necessary accuracy (within cm/less than an inch) could not be provided by (civil/available) the available GPS ccordinates. 
 
-
+From a given, accurate coordinate, a grid has to be established and meaasured, usually with the help of the mentioned equipemtn above or e.g. with measuring band 
 
 
 ### Background
