@@ -24,21 +24,32 @@ Digging in the dirt - with Virtual Reality
 ### Abstract
 
 Todays archaeology is a very divers and interdisciplinary science, which uses more and more technological devices and support to be more exact, detailed and accurate. One of the main methods in archaeology to generate data and findings is the excavation. To ensure that the data gathered at excavations are standardized, comparable, and suitable for scientific analysis, there are numereous guidelines, work processes and documentation technologies, depending on the current task and location (forest, urban environment, mining underground, inside building-complexes). 
-GPS devices and specialized measurement equipment (tachymeters) are used for excavation surveying and mapping. Ideally, the measurement data can be further refined, improved or supplemented with 2D or 3D laser-scanners and other specially adapted photographic documentation measures (including aerial photography). 
+GPS devices and specialized measurement equipment (tachymeters) are now used for excavation surveying and mapping. Ideally, the measurement data can be further refined, improved or supplemented with 2D or 3D laser-scanners and other specially adapted photographic documentation measures (including aerial photography). 
 With the inplementation of Virtual Reality (VR) technology in conjunction with GPS devices and spatial recognition software implemented in the VR technology, excavation site mapping could be set-up easier and faster. Especially for time-critical exploration or limited funding operations (limited equipment, remote location), VR technology could offer a well balanced and an "accurate enough" approach for setting up the required prerequisites. 
 
 
 ### Problem Statement
 
-Excavation sites have to be mapped accuratly to scientically analyze the findings and to be able to reconstruct the actual outlay of the findings in a standardized fashion. Setting up a excavation site base grid, depending on task and environment, to start the excavation process is time consuming and requires highly accurate, specialized and expensive equipment. The necessary processes are time consuming and require trainign and expertise in the use of the specialized equipment.
+Excavation sites have to be mapped accuratly to scientically analyze the findings and to be able to reconstruct the actual outlay of the findings in a standardized fashion. Setting up a excavation site base grid, depending on task and environment, to start the excavation process is time consuming and requires highly accurate, specialized and expensive equipment. The necessary processes are time consuming and require training and expertise in the use of the specialized equipment.
 
 ![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid_in_Grid.png)
 
-Depending on the excavation site and technique selected for the task, it is not always possible to adapt the local excavation site grid to the underlying coordinates grid. Therefore, the grid has to be measured and put into a standardized system so that the findings/generated data can be recorded and analyzed.   
+Depending on the excavation site and technique selected for the task, it is not always possible to adapt the local excavation site grid to the underlying coordinates grid. Therefore, the grid has to be measured and put into reference with a standardized system so that the findings/generated data can be recorded, analyzed and reconstructed.   
 
-(The problem statement specifies the issue the white paper will address. The problem needs to be defined and placed into a context to ensure it’s understood by the reader.)
+Additionally, excavation sites can be local or non-conformal to a traditional grid due to location or legal constrains. Still, an accurate documentation has to be ensured. Measuring the 
+
+
+
 
 ### Background
+
+![Measuring step 1+2](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring1.png)
+
+
+![Measuring step 3+4](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring2.png)
+
+
+![Measuring step 5](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring3.png)
 
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
