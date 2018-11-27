@@ -45,8 +45,13 @@ From a given, accurate coordinate, a grid has to be established and meaasured, u
 
 ![Measuring step 1+2](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring1.png)
 
+In the past, correct and accurate measuring and geolocating a finding or setting up a grid to work with was a time consuming effort. Usually, the use of standardized and official measuring points/markers where the prerequisite to start from. With the use of a Tachymetre, the actual claim or excavation site was measured and marked. 
+
 
 ![Measuring step 3+4](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring2.png)
+
+
+Further points were triangulated and could be used to define the own position .  
 
 
 ![Measuring step 5](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring3.png)
