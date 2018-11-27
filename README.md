@@ -51,10 +51,15 @@ In the past, correct and accurate measuring and geolocating a finding or setting
 ![Measuring step 3+4](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring2.png)
 
 
-Further points were triangulated and could be used to define the own position .  
+Further points were triangulated to be used to again define the own position. There are usually at least 3 points needed to define the own position within the needed accuracy.   
 
 
 ![Measuring step 5](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring3.png)
+
+From the known, triangulated position, findings and special areas could be mapped and marked, exact postions generated. It is a lengthy process, which needs specialized equipment (Tachymetre) and special training to use it. While it may still be an important skill for archaeologists to be able to use and understand a Tachymetre, the use of GPS based coordinate generation is much easier and can be used in any area of the world (where the different satellite navigation systems are available).
+
+
+Satellite based navigation is currently the most modern way of measuring and defining exact coordinates. In order to achive the necessary accuracy, the available GPS data has to be compared to a known, exactly measured point/coordinate and its GPS indication. Civil available satellite based navigation systems have a certain (artificially injected) inaccuracy, which can be compensated with the introduction of the second, known coordinate (e.g. survey points) and its satellite based coordinate. This process is called (pseudo-) differential GPS and can significantly improve the accuracy of any satellite based navigation system from about 15m (civil GPS accuracy, depending on the location on earth) to ideally up to 10 cm (4inch).   
 
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
@@ -68,7 +73,16 @@ Based on the preceding information, the solution is now presented. It is develop
 
 (This section summarizes the white paper’s major findings. Recommendations based on the solution are provided.)
 
-References
+### References
 
-(All sources used to develop the white paper must be collected and cited in this section. It adds validity to the document. It also gives the reader content for further research. Depending on your industry, follow MLA or APA citation formats.)
+Wikipedia (2018), Differentila GPS, Retrieved November 20, 2018, from: https://en.wikipedia.org/wiki/Differential_GPS
+
+Müller, D. (1998), Methoden der Grabungsvermessung, in: Biel, J., Klonk, D., Handbuch der Grabungstechnik, Stuttgart 1998, Retrieved November 21, 2018, from: http://www.landesarchaeologen.de/fileadmin/Dokumente/Dokumente_Kommissionen/Dokumente_Grabungstechniker/Grabungstechnikerhandbuch/14.1_Absteckung_und_Abmarkung.pdf
+
+Suhrbier, S. (2011), Anleitung zur digitalen Vermessung auf Archäologischen Ausgrabungen, Academia.eu, Retrieved November 15, 2018, from:  https://www.academia.edu/11900739/Anleitung_zur_digitalen_Vermessung_auf_Archäologischen_Ausgrabungen
+
+Gut, M. (2013), Dokumentation und Datenerfassung auf Ausgrabungen - Magisterarbeit, Retrieved November 22, 2018, from: https://archiv.ub.uni-heidelberg.de/volltextserver/17847/1/magisterarbeit.pdf
+
+
+
 
