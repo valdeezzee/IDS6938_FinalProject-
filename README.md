@@ -64,6 +64,9 @@ Satellite based navigation is currently the most modern way of measuring and def
 
 ![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid2.png)
 
+According to Müller (1998) and Gut (2013), the implemwentation of a grid (dig grid) is still the standard for developing excavation sites. The grid can be based on the existing coordinate system or can be a local grid which must be based on accuratly defined points (survey points) or highly exact coordinates.   
+
+
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
 
