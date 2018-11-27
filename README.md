@@ -61,6 +61,9 @@ From the known, triangulated position, findings and special areas could be mappe
 
 Satellite based navigation is currently the most modern way of measuring and defining exact coordinates. In order to achive the necessary accuracy, the available GPS data has to be compared to a known, exactly measured point/coordinate and its GPS indication. Civil available satellite based navigation systems have a certain (artificially injected) inaccuracy, which can be compensated with the introduction of the second, known coordinate (e.g. survey points) and its satellite based coordinate. This process is called (pseudo-) differential GPS and can significantly improve the accuracy of any satellite based navigation system from about 15m (civil GPS accuracy, depending on the location on earth) to ideally up to 10 cm (4inch).   
 
+
+![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid2.png)
+
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
 
