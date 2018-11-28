@@ -1265,6 +1265,8 @@
     <Compile Include="Assets\CommunityAssets\HoloToolkit-Preview\SpectatorView\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
     <Compile Include="Assets\CommunityAssets\HoloToolkit-UnitTests\Input\TestEventHandler.cs" />
     <Compile Include="Assets\CommunityAssets\HoloToolkit-UnitTests\Utilities\ReflectionTestBehaviour.cs" />
+    <Compile Include="Assets\Scripts\GPS.cs" />
+    <Compile Include="Assets\Scripts\GPS_UI.cs" />
     <Compile Include="Assets\Scripts\MySqlDatabase.cs" />
   </ItemGroup>
   <ItemGroup>

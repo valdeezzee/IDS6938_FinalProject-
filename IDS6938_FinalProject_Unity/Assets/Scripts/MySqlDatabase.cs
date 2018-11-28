@@ -15,8 +15,8 @@ using System.Text;
 using System.Security.Cryptography;
 using MySql.Data;
 using MySql.Data.MySqlClient;
-using NUnit.Framework;
-using UnityEngine.TestTools;
+//using NUnit.Framework;
+//using UnityEngine.TestTools;
 using System.Globalization;
 
 public class MySqlDatabase : MonoBehaviour {
@@ -291,7 +291,7 @@ public class MySqlDatabase : MonoBehaviour {
     #endregion
 
     
-
+    /*
     public class Tests
     {
         // Used for setting up your test.  It is called once fefore each test case
@@ -381,4 +381,5 @@ public class MySqlDatabase : MonoBehaviour {
         #endregion
 
     }
+    */
 }
