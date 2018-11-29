@@ -93,8 +93,7 @@ Due to the metric system based on 10, even lower scaling to exact coordinates wi
 
 Augmented Reality can support archaeology in many forms. From blending virtual infrastructure or urbanity with the reality background to show where findings were located. As shown above, the prerequisites is to have reliable exact location data. We assume it would be a helpful application to have a grid projected (via an AR device) into the real world with coordinates and standardized length of the grid squares. So the archaeologist could use a virtual "anchor" with known position, from where a grid would be shown on the ground. This could be as a temporary grid or as an aid when other measn are not available. Depending on the interface and accuracy, it could also become a new means of setting the dig grid onto the excavation site. 
 
-![ARGrid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/UTMcoordinateDetail.jpg)
-
+![ARGrid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/ARGrid2.jpg)
 
 In our project, we want to investigate several areas:
 + can we blend an exactly measured grid (e.g. here: 3x5 m) onto reality
