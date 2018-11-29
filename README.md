@@ -85,7 +85,7 @@ The advantage of an UTM grid is, that all UTM coordinate grids are perfectly squ
 + system is more accurate when using whole units only (no decimal places)
 and therefore is easire to comprehend.
 
-![UTM](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/HorizontalDatum.png)
+![UTM](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/UTMcoordinateDetail.jpg)
 
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
