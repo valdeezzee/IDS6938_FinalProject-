@@ -87,6 +87,25 @@ and therefore is easire to comprehend.
 
 ![UTM](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/UTMcoordinateDetail.jpg)
 
+Due to the metric system based on 10, even lower scaling to exact coordinates within 10 cm can be described.
+
+#### Augmented Reality
+
+Augmented Reality can support archaeology in many forms. From blending virtual infrastructure or urbanity with the reality background to show where findings were located. As shown above, the prerequisites is to have reliable exact location data. We assume it would be a helpful application to have a grid projected (via an AR device) into the real world with coordinates and standardized length of the grid squares. So the archaeologist could use a virtual "anchor" with known position, from where a grid would be shown on the ground. This could be as a temporary grid or as an aid when other measn are not available. Depending on the interface and accuracy, it could also become a new means of setting the dig grid onto the excavation site. 
+
+![ARGrid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/UTMcoordinateDetail.jpg)
+
+
+In our project, we want to investigate several areas:
++ can we blend an exactly measured grid (e.g. here: 3x5 m) onto reality
++ can we use the AR device to extract coordinates of each point on the grid
++ can we use the AR device to extract coordinates of any given point in the field of view (FoV), within a certain range
++ what is neccessary to use as an "anchor" for the device to receive and translate the position/location
++ how accurate is the grid/AR device in the grid representation
+
+
+
+
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
 
@@ -113,3 +132,4 @@ GISGeography.com (2018), Latitude, Longitude and Coordinate System Grids, Retrie
 
 Neiger, M. A. (2010), The Universal Transverse Mercator (UTM) coordinate system, in: Michigan Backcountry Search and Rescue (MiBSAR), Retrieved November 26, 2018, from: http://www.mibsar.com/LandNav/UTM/UTM.htm
 
+Scott, R. (2017), Morpholio's New AR Feature Makes Perspective Sketching Easier—And More Accurate—Than Ever Before, in: Arch Daily, Retrieved November 27, 2018, from: https://www.archdaily.com/879952/morpholios-new-ar-feature-makes-perspective-sketching-easier-and-more-accurate-than-ever-before
