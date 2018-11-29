@@ -38,10 +38,14 @@ Depending on the excavation site and technique selected for the task, it is not 
 
 Additionally, excavation sites can be local or non-conformal to a traditional grid due to location or legal constrains. Still, an accurate documentation has to be ensured. Measuring the coordinates used to be timeconsuming, as either GPS was not available yet or the necessary accuracy (within cm/less than an inch) could not be provided by (civil/available) the available GPS ccordinates. 
 
-From a given, accurate coordinate, a grid has to be established and meaasured, usually with the help of the mentioned equipemtn above or e.g. with measuring band 
+From a given, accurate coordinate, a grid has to be established and meaasured, usually with the help of the mentioned equipment above and with additional tools like e.g. with a especially calibrated measuring band.  
 
 
 ### Background
+
+#### Tachymetre
+
+This is how the marking of an excavation site/grid has been done (and still is) with the help of a Tachymetre.  
 
 ![Measuring step 1+2](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/measuring1.png)
 
@@ -58,6 +62,7 @@ Further points were triangulated to be used to again define the own position. Th
 
 From the known, triangulated position, findings and special areas could be mapped and marked, exact postions generated. It is a lengthy process, which needs specialized equipment (Tachymetre) and special training to use it. While it may still be an important skill for archaeologists to be able to use and understand a Tachymetre, the use of GPS based coordinate generation is much easier and can be used in any area of the world (where the different satellite navigation systems are available).
 
+#### Satelitte based navigation
 
 Satellite based navigation is currently the most modern way of measuring and defining exact coordinates. In order to achive the necessary accuracy, the available GPS data has to be compared to a known, exactly measured point/coordinate and its GPS indication. Civil available satellite based navigation systems have a certain (artificially injected) inaccuracy, which can be compensated with the introduction of the second, known coordinate (e.g. survey points) and its satellite based coordinate. This process is called (pseudo-) differential GPS and can significantly improve the accuracy of any satellite based navigation system from about 15m (civil GPS accuracy, depending on the location on earth) to ideally up to 10 cm (4inch).   
 
