@@ -75,7 +75,7 @@ According to Müller (1998) and Gut (2013), the implemwentation of a grid (dig g
 
 Whatever the case (aligned or local grid), these grid need to be based on a coordinate system. There are several available and coordinates can be converted to the respective other systems. The two most common systems are the LAT/LON coordinate system relies on the degree, minute, and second unit of measure, which incorporates the angular system and its cumbersome units of 60. It is non-symmetrical and continually varying in both size and shape. 
 
-![Grid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/Grid2.png)
+![LAT/LON](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/HorizontalDatum.png)
 
 This is due to the meridian of longitude lines—they form the left and right sides of each grid square—that curve towards each other as they depart the equator and converge at one or the other poles. While the LAT/LON coordinate system is the first choice of pilots, sailors, and others needing less-detailed, small-scale maps to navigate over great distances, other users, relying on highly-detailed, large-scale, topographic quadrangles for technical land navigation rely almost exclusively on the geospatial plane coordinate system known as the Universal Transverse Mercator (UTM) coordinate system (or Military Grid Reference System [MGRS], in the case of military).
 
@@ -85,7 +85,7 @@ The advantage of an UTM grid is, that all UTM coordinate grids are perfectly squ
 + system is more accurate when using whole units only (no decimal places)
 and therefore is easire to comprehend.
 
-
+![UTM](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/HorizontalDatum.png)
 
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
