@@ -1,17 +1,25 @@
-# IDS6938_FinalProject-
+## IDS6938_FinalProject-
 
-Unity version: 2017.4.1f1
 
-## Helpful Link
+**Write-up** of the 
 
-Setting up environment for Hololens development:
-[**Install the tools**](https://docs.microsoft.com/en-us/windows/mixed-reality/install-the-tools)
+### Augmented Reality project
+Our goal in this project is to support some aspects of the archaeological discipline with the help of Augmented Reality. 
 
-Tutorials:
-[**Mixed Reality Academy**](https://docs.microsoft.com/en-us/windows/mixed-reality/academy)
- 
-I recommend going through this first tutorial to get the hang of developing and building to the hololens:
-[**MR Basics 101**](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-101)
+One of the main methods in archaeology to generate data and findings is an excavation. To ensure that the location data of a finding gathered at excavations is sufficiently accurate for scientific analysis, archaeologists usually map out a so called "dig grid" (or just "grid") onto the ground. This grid divides the excavation site into sections and supports accurate mapping of each site and finding.
+
+Traditionally this has been done with the help of several highly specialized tools and techniques and is very precise.
+
+With the implementation of Augmented Reality (AR) technology in conjunction with GPS devices and spatial recognition software, excavation site mapping of a grid could possibly be set-up easier and faster. Especially for time-critical exploration or limited funding operations (limited equipment, remote location), AR technology could offer an "accurate enough" approach for setting up a grid to use in an excavation.
+
+Approach:
+
+We are using a commercial smartphone and its integrated GPS and compass sensors as a baseline (being aware of the current inaccuracy injected in the GPS system) to use as the anchor/marker for the AR device. This marker, which knows its GPS coordinates and its direction/alignment (compared to true north) displays a recognizable picture/pattern on the display which the AR device (here: Microsoft HoloLense) can recognize and use to project a pattern onto the background/reality.
+
+The first step was to build an app with unity to visualize/show the coordinates of the internal GPS. The format is LAT/LON coordinates. This data is exported/sent to a server from which the HoloLense can access this data. 
+
+Second step was to build a compass app in unity which shows the alignment of the smartphone in comparison to true north. We need the alignment to later calculate the coordinates of the grid. 
+
 
 
 --------DRAFT-------
@@ -25,7 +33,7 @@ Digging in the dirt - with Virtual Reality
 
 Todays archaeology is a very divers and interdisciplinary science, which uses more and more technological devices and support to be more exact, detailed and accurate. One of the main methods in archaeology to generate data and findings is the excavation. To ensure that the data gathered at excavations are standardized, comparable, and suitable for scientific analysis, there are numereous guidelines, work processes and documentation technologies, depending on the current task and location (forest, urban environment, mining underground, inside building-complexes). 
 GPS devices and specialized measurement equipment (tachymeters) are now used for excavation surveying and mapping. Ideally, the measurement data can be further refined, improved or supplemented with 2D or 3D laser-scanners and other specially adapted photographic documentation measures (including aerial photography). 
-With the inplementation of Virtual Reality (VR) technology in conjunction with GPS devices and spatial recognition software implemented in the VR technology, excavation site mapping could be set-up easier and faster. Especially for time-critical exploration or limited funding operations (limited equipment, remote location), VR technology could offer a well balanced and an "accurate enough" approach for setting up the required prerequisites. 
+With the inplementation of Augmented Reality (AR) technology in conjunction with GPS devices and spatial recognition software implemented in the VR technology, excavation site mapping could be set-up easier and faster. Especially for time-critical exploration or limited funding operations (limited equipment, remote location), AR technology could offer a well balanced and an "accurate enough" approach for setting up the required prerequisites. 
 
 
 ### Problem Statement
@@ -95,15 +103,12 @@ Augmented Reality can support archaeology in many forms. From blending virtual i
 
 ![ARGrid](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/ARGrid2.jpg)
 
-In our project, we want to investigate several areas:
-+ can we blend an exactly measured grid (e.g. here: 3x5 m) onto reality
+In our project, our goal is to investigate several areas:
++ can we blend an exactly measured grid (e.g. 3x5 m) onto reality
 + can we use the AR device to extract coordinates of each point on the grid
 + can we use the AR device to extract coordinates of any given point in the field of view (FoV), within a certain range
 + what is neccessary to use as an "anchor" for the device to receive and translate the position/location
 + how accurate is the grid/AR device in the grid representation
-
-
-
 
 (This section provides the background information required for the audience to grasp the problem and, ultimately, the solution. The content may detailed and technical or broad and high-level. The content depends on the reader and the problem.
 If original research is completed for the white paper, the methods should be communicated.)
@@ -132,3 +137,19 @@ GISGeography.com (2018), Latitude, Longitude and Coordinate System Grids, Retrie
 Neiger, M. A. (2010), The Universal Transverse Mercator (UTM) coordinate system, in: Michigan Backcountry Search and Rescue (MiBSAR), Retrieved November 26, 2018, from: http://www.mibsar.com/LandNav/UTM/UTM.htm
 
 Scott, R. (2017), Morpholio's New AR Feature Makes Perspective Sketching Easier—And More Accurate—Than Ever Before, in: Arch Daily, Retrieved November 27, 2018, from: https://www.archdaily.com/879952/morpholios-new-ar-feature-makes-perspective-sketching-easier-and-more-accurate-than-ever-before
+
+------------------------------------------------------------------
+
+Unity version: 2017.4.1f1
+
+## Helpful Link
+
+Setting up environment for Hololens development:
+[**Install the tools**](https://docs.microsoft.com/en-us/windows/mixed-reality/install-the-tools)
+
+Tutorials:
+[**Mixed Reality Academy**](https://docs.microsoft.com/en-us/windows/mixed-reality/academy)
+ 
+[**MR Basics 101**](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-101)
+
+
