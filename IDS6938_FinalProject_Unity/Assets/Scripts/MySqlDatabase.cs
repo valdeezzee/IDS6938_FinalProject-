@@ -19,12 +19,13 @@ using MySql.Data.MySqlClient;
 //using UnityEngine.TestTools;
 using System.Globalization;
 
-public class MySqlDatabase : MonoBehaviour {
+public class MySqlDatabase : MonoBehaviour
+{
 
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
-        
+
         Initialize();
     }
 
@@ -36,7 +37,7 @@ public class MySqlDatabase : MonoBehaviour {
         UpdateEntry("endTime", GetCurrentTime());
     }
 
-    
+
     void Update()
     {
         #region TESTING FUNCTIONS
@@ -91,14 +92,14 @@ public class MySqlDatabase : MonoBehaviour {
     public bool OpenConnection()
     {
         try
-        {            
+        {
             con.Open();
             //Debug.Log("Connection Successful!");
             return true;
         }
         catch (MySqlException e)
         {
-            switch(e.Number)
+            switch (e.Number)
             {
                 case 0:
                     Debug.Log("Cannot connect to Server");
@@ -110,7 +111,7 @@ public class MySqlDatabase : MonoBehaviour {
             return false;
         }
     }
-    
+
     // Closes the connection to the server
     public bool CloseConnection()
     {
@@ -143,26 +144,25 @@ public class MySqlDatabase : MonoBehaviour {
             {
                 // TODO: Change the command text to desired strings needed
                 cmd = con.CreateCommand();
-                cmd.CommandText = "INSERT INTO " + tableName + "(id,trainerID,traineeID,date,startTime,endTime) VALUES (NULL, @trainerID, @traineeID, @date, @startTime, @endTime)";
-                //cmd.Parameters.AddWithValue("@trainerID", MainMenuStatus.trainerID);
-                //cmd.Parameters.AddWithValue("@traineeID", MainMenuStatus.traineeID);
-                //cmd.Parameters.AddWithValue("@date", GetCurrentDate());
-                //cmd.Parameters.AddWithValue("@startTime", GetCurrentTime());
-                //cmd.Parameters.AddWithValue("@endTime", null);
+                cmd.CommandText = "INSERT INTO " + tableName + "(phoneid,lat,longi) VALUES (@phoneid, @lat, @longi)";
+                cmd.Parameters.AddWithValue("@phoneid", "2");
+                cmd.Parameters.AddWithValue("@lat", GPS.Instance.latitude.ToString());
+                cmd.Parameters.AddWithValue("@longi", GPS.Instance.longitude.ToString());
+
 
                 cmdSuccessful = cmd.ExecuteNonQuery();
                 int id = GetLastInsertID(cmd);
 
-                //Debug.Log("Entry Successfull: " + cmdSuccessful + " ID: " + id);
+                Debug.Log("Entry Successfull: " + cmdSuccessful + " ID: " + id);
 
                 CloseConnection();
-            }            
+            }
         }
         catch (Exception e)
         {
             Debug.Log(e);
         }
-        
+
     }
 
     // Possible more generic insert function
@@ -184,7 +184,7 @@ public class MySqlDatabase : MonoBehaviour {
                 //Debug.Log("Update Successfull " + cmdSuccessful + " ID: " + id);
 
                 CloseConnection();
-            }            
+            }
         }
         catch (Exception e)
         {
@@ -194,7 +194,7 @@ public class MySqlDatabase : MonoBehaviour {
 
 
     // Deletes an entry from the database table with given id
-    public void DeleteEntry(string whereToDelete = "",int id = -1)
+    public void DeleteEntry(string whereToDelete = "", int id = -1)
     {
         try
         {
@@ -209,14 +209,14 @@ public class MySqlDatabase : MonoBehaviour {
                 //Debug.Log("Entry Deleted " + cmdSuccessful + " ID: " + id);
 
                 CloseConnection();
-            }            
+            }
         }
         catch (Exception e)
         {
 
             Debug.Log(e);
         }
-        
+
     }
 
     // Checks to see if an entry exists with a given id
@@ -234,7 +234,7 @@ public class MySqlDatabase : MonoBehaviour {
                 //Debug.Log("Entry Exists " + cmdSuccessful + " ID: " + id);
 
                 CloseConnection();
-            }            
+            }
         }
         catch (Exception e)
         {
@@ -259,7 +259,7 @@ public class MySqlDatabase : MonoBehaviour {
         ip = IP;
         database = DB;
         user = USR;
-        password = PW;        
+        password = PW;
     }
 
     public void SetTable(string TN)
@@ -290,7 +290,7 @@ public class MySqlDatabase : MonoBehaviour {
     private MD5 _md5Hash;
     #endregion
 
-    
+
     /*
     public class Tests
     {

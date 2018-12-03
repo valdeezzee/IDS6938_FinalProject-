@@ -1,0 +1,1 @@
+C:\Users\jvalderr\Documents\GitHub\IDS6938_FinalProject-\IDS6938_FinalProject_Unity\Builds\Hololens\IDS6938_FinalProject_Unity\IDS6938_FinalProject_Unity.csproj;x86

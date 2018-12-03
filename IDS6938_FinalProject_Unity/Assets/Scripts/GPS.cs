@@ -9,6 +9,7 @@ public class GPS : MonoBehaviour
 
     public float latitude = 0;
     public float longitude = 0;
+    public Quaternion heading;
     // Use this for initialization
     //void Start()
     //{
@@ -55,7 +56,8 @@ public class GPS : MonoBehaviour
     {
         latitude = Input.location.lastData.latitude;
         longitude = Input.location.lastData.longitude;
-        print(latitude);
+        heading = Quaternion.Euler(0, 0, -Input.compass.trueHeading);
+        
     }
 
     IEnumerator Start()
@@ -67,6 +69,7 @@ public class GPS : MonoBehaviour
         if (!Input.location.isEnabledByUser)
             yield break;
 
+        Input.compass.enabled = true;
         // Start service before querying location
         Input.location.Start();
 
