@@ -16,11 +16,13 @@ Approach:
 
 We are using a commercial smartphone and its integrated GPS and compass sensors as a baseline (being aware of the current inaccuracy injected in the GPS system) to use as the anchor/marker for the AR device. This marker, which knows its GPS coordinates and its direction/alignment (compared to true north) displays a recognizable picture/pattern on the display which the AR device (here: Microsoft HoloLens) can recognize and use to project a pattern onto the background/reality.
 
-First step: was to build an app with unity to visualize/show the coordinates of the internal GPS. The format is LAT/LON coordinates. This data is exported/sent to a server from which the HoloLens can access this data. 
+First step: build an app with unity to visualize/show the coordinates of the internal GPS. The format is LAT/LON coordinates. This data is exported/sent to a server from which the HoloLens can access this data. 
 
-Second step: was to build a compass app in unity which shows the alignment of the smartphone in comparison to true north. We need the alignment to later calculate the coordinates of the grid. 
+Second step: build a compass app in unity which shows the alignment of the smartphone in comparison to true north. We need the alignment to later calculate the coordinates of the grid. 
 
-Third step: implement the marker to be recognized into the HoloLens to use it with the smartphone. From this marker, the grid will be projected.
+Third step: implement the marker functionality to be recognized into the HoloLens to use it with the smartphone. From this marker as a base, the grid will be projected.
+
+
 
 
 
