@@ -37,7 +37,18 @@ Problems we ran into:
 
 - We used a smaller grid than intended since the HoloLens was easily blocked out by anything larger. We assumed it will be sufficient as a proof of concept.
 
+Conclussion:
 
+We had an ambitious project with a lot of unknown factors, especially on the technical/hardware/software side. We were not able to implement all the intended features, mostly due to lack of time. 
+
+We still think we demonstrated a first step towards the realization of the intended idea. Unity and the HoloLens are suitable hard- and software solutions.   
+
+This is a demo-video that shows how the app and the HoloLens work together. 
+[**HoloGPS Demo**](https://youtu.be/cMsc_A1H-Fg)
+
+Here are the builds for android and the HoloLens
+
+[**Builds**](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/jvalderrama91_knights_ucf_edu/EtDiJXPIiRtHtw5HyIYv7AEBq5RYQvaLCmBAc7454-jDJQ?e=BFem2l)
 
 
 
@@ -143,11 +154,6 @@ Based on the preceding information, the solution is now presented. It is develop
 
 (This section summarizes the white paper’s major findings. Recommendations based on the solution are provided.)
 
-[**HoloGPS Demo**](https://youtu.be/cMsc_A1H-Fg)
-
-I included builds for android and the HoloLens
-
-[**Builds**](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/jvalderrama91_knights_ucf_edu/EtDiJXPIiRtHtw5HyIYv7AEBq5RYQvaLCmBAc7454-jDJQ?e=BFem2l)
 
 ### References
 
