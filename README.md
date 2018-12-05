@@ -20,7 +20,7 @@ First step: we build an app with unity to visualize/show the coordinates of the 
 
 Second step: build a compass app in unity which shows the alignment of the smartphone in comparison to true north. We need the alignment to later calculate the coordinates of the grid. 
 
-![App](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/HoloGpsApp.jpg)
+![App](https://github.com/valdeezzee/IDS6938_FinalProject-/blob/master/Ausgrabung/GridApp.jpg)
 
 Third step: implement the marker functionality to be recognized into the HoloLens to use it with the smartphone. From this marker as a base, the grid will be projected.
 
