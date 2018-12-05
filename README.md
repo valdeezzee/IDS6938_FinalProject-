@@ -12,15 +12,29 @@ Traditionally this has been done with the help of several highly specialized too
 
 With the implementation of Augmented Reality (AR) technology in conjunction with GPS devices and spatial recognition software, excavation site mapping of a grid could possibly be set-up easier and faster. Especially for time-critical exploration or limited funding operations (limited equipment, remote location), AR technology could offer an "accurate enough" approach for setting up a grid to use in an excavation.
 
-Approach:
+#### Approach:
 
 We are using a commercial smartphone and its integrated GPS and compass sensors as a baseline (being aware of the current inaccuracy injected in the GPS system) to use as the anchor/marker for the AR device. This marker, which knows its GPS coordinates and its direction/alignment (compared to true north) displays a recognizable picture/pattern on the display which the AR device (here: Microsoft HoloLens) can recognize and use to project a pattern onto the background/reality.
 
-First step: build an app with unity to visualize/show the coordinates of the internal GPS. The format is LAT/LON coordinates. This data is exported/sent to a server from which the HoloLens can access this data. 
+First step: we build an app with unity to visualize/show the coordinates of the internal GPS. The format is LAT/LON coordinates. This data is exported/sent to a server from which the HoloLens will access this data. 
 
 Second step: build a compass app in unity which shows the alignment of the smartphone in comparison to true north. We need the alignment to later calculate the coordinates of the grid. 
 
 Third step: implement the marker functionality to be recognized into the HoloLens to use it with the smartphone. From this marker as a base, the grid will be projected.
+
+Forth step: The grid was built in unity and attached to the marker. The grid will be projected in alignment with the marker.
+
+
+#### Process:
+
+The smartphone has to be aligned with the compass app towards true north. After the compass has stabilized, the coordinates will be sent to the server by pressing the "Send Data" button on the lower part on the screen. This transmits the LAT/LON coordinates to the server, which in turn is supposed to send it to the HoloLens. After that, push the "Turn on Marker" button to activate the marker-screen. Tab the marker projection (by finger gesture) and the grid (currently with the dimensions: 0.4976m x 0.4976m)  will appear. It will appear "on top" of the phone/marker and be on the ground plane. After activating "Enable extended tracking" (by voice command) the HoloLens can move further away from the phone/marker. 
+
+Problems we ran into:
+
+- The server does not communicate with the HoloLens directly, Microsoft requires certain agents to handle the communication, which was a problem that we were not able to resolve within the given time.
+
+- We used a smaller grid than intended since the HoloLens was easily blocked out by anything larger. We assumed it will be sufficient as a proof of concept.
+
 
 
 
