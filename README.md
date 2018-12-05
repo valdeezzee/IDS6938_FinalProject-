@@ -146,6 +146,7 @@ Based on the preceding information, the solution is now presented. It is develop
 [**HoloGPS Demo**](https://youtu.be/cMsc_A1H-Fg)
 
 I included builds for android and the HoloLens
+
 [**Builds**](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/jvalderrama91_knights_ucf_edu/EtDiJXPIiRtHtw5HyIYv7AEBq5RYQvaLCmBAc7454-jDJQ?e=BFem2l)
 
 ### References
