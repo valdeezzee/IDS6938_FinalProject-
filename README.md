@@ -29,7 +29,7 @@ Forth step: The grid was built in unity and attached to the marker. The grid wil
 
 #### Process:
 
-The smartphone has to be aligned with the compass app towards true north. After the compass has stabilized, the coordinates will be sent to the server by pressing the "Send Data" button on the lower part on the screen. This transmits the LAT/LON coordinates to the server, which in turn is supposed to send it to the HoloLens. After that, push the "Turn on Marker" button to activate the marker-screen. Tab the marker projection (by finger gesture) and the grid (currently with the dimensions: 0.4976m x 0.4976m)  will appear. It will appear "on top" of the phone/marker and be on the ground plane. After activating "Enable extended tracking" (by voice command) the HoloLens can move further away from the phone/marker. 
+The smartphone has to be aligned with the compass app towards true north. After the compass has stabilized, the coordinates will be sent to the server by pressing the "Send Data" button on the lower part on the screen. This transmits the LAT/LON coordinates to the server, which in turn is supposed to send it to the HoloLens. After that, push the "Turn on Marker" button to activate the marker-screen. Tab the marker projection (by finger gesture) and the grid (currently with the dimensions: 0.4976m x 0.4976m)  will appear. It will appear "on top" of the phone/marker and be on the ground plane. After activating "Start extended tracking" (by voice command) the HoloLens can move further away from the phone/marker. 
 
 Problems we ran into:
 
