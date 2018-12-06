@@ -51,7 +51,8 @@ Here are the builds for android and the HoloLens
 [**Builds**](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/jvalderrama91_knights_ucf_edu/EtDiJXPIiRtHtw5HyIYv7AEBq5RYQvaLCmBAc7454-jDJQ?e=BFem2l)
 
 
-
+In class it was decided to "just do 1 page" so we did this (upper) write-up 
+Below is the unfinished original write-up - for your information.
 
 
 --------DRAFT-------
